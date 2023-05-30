@@ -1,0 +1,26 @@
+.textunderhero{
+    width: 1300px;
+    margin: 0 auto;
+    background-color:#FFFFFF;
+    
+  p{font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    padding: 20px;
+    color: #404040;
+}
+}
+@media screen and (max-width:500px){
+    .textunderhero{
+        width: 100%;
+        p{font-size: 12px;
+            line-height: 14px;
+            text-align: center;}
+        img{width:100%;}
+    }
+}
+@media screen and (max-width:1300px){
+    .textunderhero{width: 100%;img{width:100%;}}}
